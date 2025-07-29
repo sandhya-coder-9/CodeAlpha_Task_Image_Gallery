@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Animated Searchable Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🌟 My Image Gallery  🌟</h1>
+  <input type="text" id="searchBar" placeholder="Search images...">
+
+  <div class="gallery" id="gallery">
+    <div class="gallery-item" data-title="Beach">
+         <p>Beach</p>
+      <img src="/b1.jpeg" alt="Beach">
+      <img src="/b2.jpeg" alt="Beach">
+      <img src="/b3.jpeg" alt="Beach">
+      <img src="/b4.jpeg" alt="Beach">
+      <img src="/b5.jpeg" alt="Beach">
+    </div>
+    <div class="gallery-item" data-title="Mountain">
+        <p>Mountain</p>
+      <img src="/m1.jpeg" alt="Mountain">
+      <img src="/m2.jpeg" alt="Mountain">
+      <img src="/m3.jpeg" alt="Mountain">
+      <img src="/m4.jpeg" alt="Mountain">
+      <img src="/m5.jpeg" alt="Mountain">
+    </div>
+    <div class="gallery-item" data-title="City">
+        <p>City</p>
+      <img src="/c1.jpg" alt="City">
+      <img src="/c2.jpeg" alt="City">
+      <img src="/c3.webp" alt="City">
+      <img src="/c4.jpeg" alt="City">
+      <img src="/c5.jpeg" alt="City">
+    </div>
+    <div class="gallery-item" data-title="River">
+         <p>River</p>
+      <img src="/r1.jpeg" alt="River">
+      <img src="/r2.jpeg" alt="River">
+      <img src="/r3.jpeg" alt="River">
+      <img src="/r4.jpeg" alt="River">
+      <img src="/r5.jpg" alt="River">
+    </div>
+    <div class="gallery-item" data-title="Desert">
+        <p>Desert</p>
+      <img src="/d1.jpeg" alt="Desert">
+      <img src="/d2.jpeg" alt="Desert">
+      <img src="/d3.jpeg" alt="Desert">
+      <img src="/d4.jpeg" alt="Desert">
+      <img src="/d5.avif" alt="Desert">
+    </div>
+    <div class="gallery-item" data-title="Forest">
+         <p>Forest</p>
+      <img src="/f1.jpeg" alt="Forest">
+      <img src="/f2.jpeg" alt="Forest">
+      <img src="/f3.jpeg" alt="Forest">
+      <img src="/f4.avif" alt="Forest">
+      <img src="/f5.jpeg" alt="Forest">
+    </div>
+  </div>
+
+  <!-- Lightbox Popup -->
+  <!-- <div id="lightbox" class="lightbox">
+    <span class="close" id="closeBtn">&times;</span>
+    <img id="lightboxImg" class="lightbox-img" src="" alt="Full Image">
+  </div> -->
+
+  <!-- Lightbox Popup -->
+<div id="lightbox" class="lightbox">
+  <span class="close" id="closeBtn">&times;</span>
+  <img id="lightboxImg" class="lightbox-img" src="" alt="Full Image">
+  <span class="prev" id="prevBtn">&#10094;</span>
+  <span class="next" id="nextBtn">&#10095;</span>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
